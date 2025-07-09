@@ -6,7 +6,7 @@ This project demonstrates a clean, scalable, and maintainable approach to API te
 
 ## 🛠 Tech Stack
 
-- **.NET 9**
+- **.NET SDK** — Using 9 here
 - **RestSharp** — For API calls
 - **NUnit** — For test framework
 - **C#**
@@ -27,7 +27,7 @@ ApiTestWithRestSharpNUnit/
 │
 ├── .gitignore
 ├── README.md
-└── ApiTestWithRestSharpNUnit.sln
+
 ```
 
 ---
@@ -36,7 +36,7 @@ ApiTestWithRestSharpNUnit/
 
 We use a `POST` request to fetch an OAuth2 access token using client credentials:
 
-- Endpoint: `/api/1.0/oauth2/access_token`
+- Endpoint: `test/api/oauth2/access_token`
 - Headers:
   - `Content-Type: application/x-www-form-urlencoded`
   - `Authorization: Basic <base64(client_id:client_secret)>`
