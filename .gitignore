@@ -1,0 +1,59 @@
+# Build results
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# .NET Core generated files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio Code settings
+.vscode/
+
+# Rider IDE
+.idea/
+
+#Test reports
+RestSharpDemo/Testreports/
+
+# Test results
+RestSharpDemo/TestResults/
+*.coverage
+*.coveragexml
+*.log
+
+# Auto-generated files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.db
+*.db-shm
+*.db-wal
+
+# dotnet watch/CLI files
+launchSettings.json
+
+# Allure results (if added later)
+RestSharpDemo/allure-results/
+RestSharpDemo/allure-report/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# User secrets (optional)
+secrets.json
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
